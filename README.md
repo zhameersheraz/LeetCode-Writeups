@@ -1,12 +1,29 @@
 # LeetCode Writeups
 
-Writeup by: zham
+My walkthroughs for [LeetCode](https://leetcode.com) problems I'm solving.
 
-My personal writeups for LeetCode problems I'm solving. I'm working through the LeetCode 75 study plan to build up the basics — strings, arrays, dynamic programming, the usual suspects.
+I'm working through LeetCode 75, Top Interview 150, and other study plans as I go. Each writeup has the original problem, my thought process, the code I submitted, and what I learned.
 
-Most writeups include a short explanation, my thought process, the code I submitted, and what I learned.
+## How it's organized
 
-## Progress
+Writeups are grouped by study plan. Each problem lives in its own folder named with the problem number and a short slug.
 
-- [x] 1768. Merge Strings Alternately — Easy — Two Pointers, String
-- [ ] more coming...
+```
+LeetCode-Writeups/
+├── LeetCode_75/
+├── Top_Interview_150/
+├── Dynamic_Programming/
+├── Binary_Search/
+├── SQL_50/
+└── ...
+```
+
+When a problem shows up in more than one plan, it goes in the first plan I finish it from. No duplicates.
+
+## Languages
+
+Mostly C++. Python when I want to test an idea fast.
+
+## Author
+
+[@zhameersheraz](https://github.com/zhameersheraz)
