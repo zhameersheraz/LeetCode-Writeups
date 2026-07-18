@@ -1,0 +1,24 @@
+# Compiled C++ files
+*.o
+*.obj
+*.exe
+*.out
+
+# Compiled Java files
+*.class
+*.jar
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+bin/
