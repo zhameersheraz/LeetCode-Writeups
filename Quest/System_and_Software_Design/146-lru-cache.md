@@ -129,5 +129,4 @@ The first time I saw this problem, the canonical answer was a hundred-plus lines
 
 `LinkedHashMap` with `accessOrder = true` is the LRU. Plus `removeEldestEntry` is the eviction hook. Once you see those two pieces, the whole class is a wrapper. In an interview I would still mention that the underlying implementation is a doubly-linked list, because the interviewer wants to know I understand what is happening, not just that I can call a method. But the actual code I would write is the short version.
 
-
 The "read counts as a use" idea is the part that surprised me most. `get(1)` after `put(1, 1)` and `put(2, 2)` should still let `1` stay in the cache when the next `put` comes, because we just touched it. The LRU is about "least recently used", not "least recently inserted". Reordering on `get` is what makes the data structure work.
