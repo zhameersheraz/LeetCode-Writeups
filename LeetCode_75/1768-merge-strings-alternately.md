@@ -114,3 +114,4 @@ The thing that made this click for me was the `||` in the while loop. If I had u
 Also, the `i++` inside `word1[i++]` is post-increment, so it grabs `word1[i]` first, then bumps i. That lets me write the take-and-move in one line.
 
 Two pointers showed up here, and it'll keep showing up in string and array problems. Pattern worth remembering.
+
