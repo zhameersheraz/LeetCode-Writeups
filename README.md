@@ -23,7 +23,7 @@ When a problem shows up in more than one plan, it goes in the first plan I finis
 
 ## Languages
 
-Mostly C++. Python when I want to test an idea fast.
+Mostly Java. Python when I want to test an idea fast.
 
 ## Author
 
