@@ -19,7 +19,6 @@ LeetCode-Writeups/
 ```
 
 
-
 When a problem shows up in more than one plan, it goes in the first plan I finish it from. No duplicates.
 
 ## Languages
